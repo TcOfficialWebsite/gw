@@ -24,22 +24,20 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#"><i class="glyphicon glyphicon-flag"></i> PHP基础教程 <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> PHP高级教程</a></li>
+		        <li class="active"><a href="#"><i class="glyphicon glyphicon-flag"></i> 编程杂志 <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> MYSQL指南</a></li>
 		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-fire" style="color: red"></i> PHP视频教程 <span class="caret"></span></a>
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-fire" style="color: pink"></i> PHP 指南 <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
+		            <li><a href="#">PHP 基础教程</a></li>
+		            <li><a href="#">PHP 高级教程</a></li>
+		            <li><a href="#">PHP 特级教程</a></li>
 		            <li role="separator" class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">One more separated link</a></li>
+		            <li><a href="#">PHP 视频教程</a></li>
 		          </ul>
 		        </li>
-		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> JAVA基础教程 <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#"><i class="glyphicon glyphicon-download-alt"></i> 编程杂志</a></li>
+		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> JAVA 基础教程 <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#"><i class="glyphicon glyphicon-download-alt"></i> 资料下载 </a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		      	<form class="navbar-form navbar-left">
@@ -53,7 +51,7 @@
 		        <li><a href="#">退出</a></li>
 		        <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-		          <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511350588&di=c4850c00f0137bdd261f17f1fa98ff8c&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.mp.sohu.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170624%2F7cdfadc2a5bd491e8dfff62ada3c4fad.jpg" class="img-circle" style="width: 50px;height: 50px;"> <span class="caret"></span></a>
+		          <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511350588&di=c4850c00f0137bdd261f17f1fa98ff8c&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.mp.sohu.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170624%2F7cdfadc2a5bd491e8dfff62ada3c4fad.jpg" class="img-circle" style="width: 35px;height: 35px;"> <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
 		            <li><a href="#">Action</a></li>
 		            <li><a href="#">Another action</a></li>
@@ -106,8 +104,8 @@
 		  	<ul class="nav nav-tabs" role="tablist">
 		  		<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">最新文章</a></li>
 		    	<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">热门文章</a></li>
-		    	<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-		    	<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+		    	<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">电子书下载</a></li>
+		    	<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">购买纸质旧书</a></li>
 		  	</ul>
 		  	<!-- Tab panes -->
 		  	<div class="tab-content">

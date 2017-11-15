@@ -4,7 +4,8 @@ header .navbar {
   margin-bottom: 0px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-	margin-left:60px;
+	margin-left:4em;
+	margin-right: 2em;
 }
 
 .navbar-brand{
@@ -25,5 +26,24 @@ header .navbar {
 }
 
 .container{
-    margin-top: 1em;
+  margin-top: 1em;
+}
+
+body{
+	font-family: "microsoft yahei",KaiTi,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+
+a:focus,a:hover{
+	color:#000;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: #000;
+}
+
+.nav-tabs a{
+	color: #000;
+	/*font-weight: bold;*/
 }
