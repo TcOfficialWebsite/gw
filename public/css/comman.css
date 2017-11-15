@@ -23,3 +23,7 @@ header .navbar {
 .navbar-form{
 	margin-top: 17.5px;
 }
+
+.container{
+    margin-top: 1em;
+}
