@@ -47,7 +47,7 @@ body{
 }
 
 a:focus,a:hover{
-	color:rgb(190,137,103);
+	color:rgb(190,137,103) !important;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
