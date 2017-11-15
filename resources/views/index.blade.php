@@ -9,7 +9,7 @@
 <body>
 	<header role="banner">
 		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
+		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -27,7 +27,7 @@
 		        <li class="active"><a href="#"><i class="glyphicon glyphicon-flag"></i> 编程杂志 <span class="sr-only">(current)</span></a></li>
 		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> MYSQL指南</a></li>
 		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-fire" style="color: pink"></i> PHP 指南 <span class="caret"></span></a>
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-fire" style="color: rgb(190,137,103)"></i> PHP 指南 <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
 		            <li><a href="#">PHP 基础教程</a></li>
 		            <li><a href="#">PHP 高级教程</a></li>
@@ -36,7 +36,7 @@
 		            <li><a href="#">PHP 视频教程</a></li>
 		          </ul>
 		        </li>
-		        <li><a href="#"><i class="glyphicon glyphicon-book"></i> JAVA 基础教程 <span class="sr-only">(current)</span></a></li>
+		        <!-- <li><a href="#"><i class="glyphicon glyphicon-book"></i> JAVA 基础教程 <span class="sr-only">(current)</span></a></li> -->
 		        <li><a href="#"><i class="glyphicon glyphicon-download-alt"></i> 资料下载 </a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
@@ -69,7 +69,7 @@
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		</ol>
 
 	  	<!-- Wrapper for slides -->

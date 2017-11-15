@@ -2,10 +2,19 @@ header .navbar {
   border-radius:0px;
   min-height:70px;
   margin-bottom: 0px;
+  border-top:0px;
 }
+
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-right: 1em;
+}
+/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
 	margin-left:4em;
 	margin-right: 2em;
+}*/
+nav div.container{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .navbar-brand{
@@ -18,32 +27,40 @@ header .navbar {
 }
 
 .navbar-nav>li>a{
-	line-height: 39px;
+	line-height: 40px;
+	font-weight: 500;
 }
 
 .navbar-form{
 	margin-top: 17.5px;
 }
 
-.container{
+.bodyer{
   margin-top: 1em;
 }
 
 body{
-	font-family: "microsoft yahei",KaiTi,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	font-size: 15px;
 	color: #000;
 }
 
 a:focus,a:hover{
-	color:#000;
+	color:rgb(190,137,103);
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	color: #000;
+	color:rgb(190,137,103);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color:rgb(190,137,103);
+}
+.nav-tabs a{
+	color: rgb(190,137,103);
+	/*font-weight: bold;*/
 }
 
-.nav-tabs a{
-	color: #000;
-	/*font-weight: bold;*/
+.navbar-default .navbar-nav>li>a:hover{
+	color:rgb(190,137,103);
 }
