@@ -64,3 +64,29 @@ a:focus,a:hover{
 .navbar-default .navbar-nav>li>a:hover{
 	color:rgb(190,137,103);
 }
+
+.new-article,.e-book{
+	margin-top: 1em;
+}
+
+.new-article img,.e-book img{
+	width: 100%;
+	height: 100%;
+}
+
+.new-article h2,.e-book h2{
+	font-size: 18px;
+}
+
+.new-article, .new-article h2 a,.e-book h2 a{
+	color:#333;
+}
+
+.new-article .col-md-8 p span{
+	font-size: 11px;
+	color: #999;
+}
+.price{
+	margin-left: 1em;
+	font-size: 14px;
+}
