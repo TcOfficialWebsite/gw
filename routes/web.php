@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/blog/list', function(){
+    return view('bloglist');
+});
+
 // 后台路由
 Route::group(['namespace' => 'Admin','middleware'=>'admin_auth'], function () {
     Route::get('/admin/login', function () {
